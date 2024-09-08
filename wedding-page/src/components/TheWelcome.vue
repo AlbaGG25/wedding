@@ -25,17 +25,21 @@
 }
 
 .home_title {
+  font-family: "Ysabeau SC", sans-serif;
   font-size: 2.5rem;
   color: var(--vt-c-black);
   text-align: center;
   padding-top: 5rem;
   position: absolute;
   top: 20%;
+  opacity: 0.8;
   
 }
 .home_title2 {
+    font-family: "Ysabeau SC", sans-serif;
   font-size: 1.5rem;
   color: var(--vt-c-black);
+  opacity: 0.8;
   text-align: center;
   position: absolute;
   top: 55%;
