@@ -25,7 +25,7 @@ const toggleMenu = () => {
       <RouterLink to="/us" class="header_nav-a">Us</RouterLink>
       <RouterLink to="/when&where" class="header_nav-a">When & where</RouterLink> 
       <RouterLink to="/registry" class="header_nav-a">Registry</RouterLink>
-      <RouterLink to="/rsvp" class="header_nav-a"><button>RSVP</button></RouterLink>
+      <RouterLink to="/rsvp" class="header_nav-a"><button class="header_button">RSVP</button></RouterLink>
     </nav>
   </header>
 </template>
@@ -41,6 +41,7 @@ const toggleMenu = () => {
   z-index: 1;
   width: 100%;
   height: 7rem;
+  box-shadow:  5px black;
 }
 .header_logo {
   width: 185px;
@@ -84,9 +85,16 @@ const toggleMenu = () => {
 .header_nav-a.router-link-exact-active:hover {
   background-color: transparent;
 }
+.header_button {
+  border-color: black;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  background-color: white;
+}
 
 .header_nav--open {
   display: flex;
+  height: 100VH;
 }
 
 @media (min-width: 768px) {

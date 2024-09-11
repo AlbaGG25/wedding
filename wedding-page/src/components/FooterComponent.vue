@@ -21,6 +21,7 @@
         padding: 1rem;
         background-color: white;
         color: var(--vt-c-black);
+        
     }
     span {
         font-size: 0.8rem;

@@ -1,15 +1,20 @@
+<script setup lang="ts">
+import UsComponent from '../components/UsComponent.vue'
+</script>
+
 <template>
-  <div class="us">
-    <h1>This is an Us page</h1>
+  <div class="usView">
+    <UsComponent />
   </div>
 </template>
 
 <style>
 @media (min-width: 1024px) {
-  .us {
+  .usView{
     min-height: 100vh;
-    display: flex;
+    justify-content: center;
     align-items: center;
+    margin: 0 10rem; 
   }
 }
 </style>
