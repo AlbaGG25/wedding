@@ -5,8 +5,8 @@ import WhereComponent from '../components/WhereComponent.vue'
 
 <template>
   <section class="section">
-    <WhenComponent />
-    <WhereComponent />
+    <WhenComponent class="box"/>
+    <WhereComponent class="box"/>
   </section>
 </template>
 
@@ -15,9 +15,22 @@ import WhereComponent from '../components/WhereComponent.vue'
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 10rem; 
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0 10rem;
+    padding-top: 10rem;
+  }
+  .box{
+    width: 100%;
+    margin: 2rem 0;
+    flex: 1; 
+    margin: 1rem; 
+    padding: 2rem;
+    
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
   }
 @media (min-width: 1024px) {
   .section{

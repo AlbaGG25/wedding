@@ -90,6 +90,7 @@ const toggleMenu = () => {
   padding-block: 0.5rem;
   padding-inline: 1rem;
   background-color: white;
+  cursor:pointer;
 }
 
 .header_nav--open {

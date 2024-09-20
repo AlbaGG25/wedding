@@ -61,7 +61,7 @@ import { ref } from 'vue'
   position: absolute;
   top: 70%;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .home_title {
     font-size: 6rem;
     padding-top: 0;
